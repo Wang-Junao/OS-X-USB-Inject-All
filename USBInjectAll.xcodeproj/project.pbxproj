@@ -201,6 +201,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0C4B237114598AD10080D960;
@@ -272,7 +273,7 @@
 				MODULE_VERSION = 0.7.1;
 				OTHER_CFLAGS = "-fno-stack-protector";
 				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				STRIP_STYLE = "non-global";
 				SYMROOT = build/Products;
 			};
@@ -298,7 +299,7 @@
 				MODULE_VERSION = 0.7.1;
 				OTHER_CFLAGS = "-fno-stack-protector";
 				"OTHER_LDFLAGS[arch=x86_64]" = "-dead_strip";
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 				STRIP_STYLE = "non-global";
 				SYMROOT = build/Products;
 			};
