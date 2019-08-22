@@ -52,6 +52,8 @@ mergeModelData "MacBookPro14,2"
 mergeModelData "MacBookPro14,3"
 mergeModelData "MacBookPro15,1"
 mergeModelData "MacBookPro15,2"
+mergeModelData "MacBookPro15,3"
+mergeModelData "MacBookPro15,4"
 
 # MacBookAir
 mergeModelData "MacBookAir4,1" EHCI
@@ -63,6 +65,7 @@ mergeModelData "MacBookAir6,2" EHCI
 mergeModelData "MacBookAir7,1" EHCI
 mergeModelData "MacBookAir7,2" EHCI
 mergeModelData "MacBookAir8,1"
+mergeModelData "MacBookAir8,2"
 
 # iMac
 mergeModelData "iMac4,1" EHCI
