@@ -138,10 +138,17 @@ Clover
 ```
 EFI/Clover/kexts/Other
 ```
+Reboot !
+
+
 Open Core
 ```
 EFI/OC/Kexts
 ```
+Make sure to also add USBInjectAll.kext entry into config.plist /Kernel/Add/ like other kexts accordingly.
+
+Reboot !
+
 
 Note: This kext assumes you already renamed EHC1->EH01 and EHC2->EH02.  It also assumes your XHCI controller is named XHC or XHCI (not renamed to XHC1).  These names EH01/EH02/XHC are best to avoid conflicts with built-in port injectors for Apple computers.  Refer to config_patches.plist in this repo for the patches required (config_patches.plist/ACPI/DSDT/Patches).
 
