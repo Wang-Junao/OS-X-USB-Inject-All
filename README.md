@@ -127,17 +127,20 @@ Downloads are available on the "Release" tab
 
 The best way to download the config_patches.plist and other repo files is to download the project ZIP:
 
-https://github.com/RehabMan/OS-X-USB-Inject-All/archive/master.zip
+https://github.com/Sniki/OS-X-USB-Inject-All/archive/master.zip
 
 
 ### How to Install
 
-Install the kext with your favorite kext installer, such as Kext Wizard.
+Install the kext with your Bootloader in use, such as Clover or Open Core.
 
-Or install via Terminal:
+Clover
 ```
-sudo cp -R Release/USBInjectAll.kext /Library/Extensions
-sudo touch /System/Library/Extensions && sudo kextcache -u /
+EFI/Clover/kexts/Other
+```
+Open Core
+```
+EFI/OC/Kexts
 ```
 
 Note: This kext assumes you already renamed EHC1->EH01 and EHC2->EH02.  It also assumes your XHCI controller is named XHC or XHCI (not renamed to XHC1).  These names EH01/EH02/XHC are best to avoid conflicts with built-in port injectors for Apple computers.  Refer to config_patches.plist in this repo for the patches required (config_patches.plist/ACPI/DSDT/Patches).
