@@ -153,7 +153,7 @@
 			buildConfigurationList = 84D9F2AC1BD60EA9003FC186 /* Build configuration list for PBXLegacyTarget "PreBuild" */;
 			buildPhases = (
 			);
-			buildToolPath = ./generate_Info_plist.sh;
+			buildToolPath = "$(PROJECT_DIR)/generate_Info_plist.sh";
 			buildWorkingDirectory = "";
 			dependencies = (
 			);
