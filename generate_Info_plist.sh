@@ -54,6 +54,7 @@ mergeModelData "MacBookPro15,1"
 mergeModelData "MacBookPro15,2"
 mergeModelData "MacBookPro15,3"
 mergeModelData "MacBookPro15,4"
+mergeModelData "MacBookPro16,1"
 
 # MacBookAir
 mergeModelData "MacBookAir4,1" EHCI
@@ -118,6 +119,7 @@ mergeModelData "MacPro3,1" EHCI
 mergeModelData "MacPro4,1" EHCI
 mergeModelData "MacPro5,1" EHCI
 mergeModelData "MacPro6,1" EHCI
+mergeModelData "MacPro7,1" EHCI
 
 # check to see if it was updated...
 cksum_old=`md5 -q $plist`
