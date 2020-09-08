@@ -26,7 +26,19 @@ XHC, 100-series chipset (8086:a12f): 14-USB2 ports HS01-HS14, 10-USB3 ports SS01
 
 XHC, 100-series chipset (8086:9d2f): 10-USB2 ports HS01-HS10, 6-USB3 ports SS01-SS06, plus USR1/USR2)
 
-XHC, 200-series/300-series chipset, etc.
+XHC, 200-series chipset(8086:a2af): 14-USB2 ports HS01-HS14, 10-USB3 ports SS01-SS10, plus USR1/USR2)
+
+XHC, 300-series chipset(8086:a36d): 14-USB2 ports HS01-HS14, 10-USB3 ports SS01-SS10, plus USR1/USR2)
+
+XHC, 400-series chipset(8086:a3af): 14-USB2 ports HS01-HS14, 10-USB3 ports SS01-SS10, plus USR1/USR2)
+
+XHC, 400-series chipset(8086:06ed): 14-USB2 ports HS01-HS14, 10-USB3 ports SS01-SS10, plus USR1/USR2)
+
+Comet Lake PCH-LP USB 3.1 xHCI Host Controller, (8086:02ed): 10-USB2 ports HS01-HS10, 4-USB3 ports SS01-SS04, plus USR1/USR2)
+
+Ice Lake-LP USB 3.1 xHCI Host Controller, (8086:34ed): 10-USB2 ports HS01-HS10, 4-USB3 ports SS01-SS04, plus USR1/USR2)
+
+
 
 This kext is only for 10.11+.  It has no use with prior versions.
 
@@ -127,8 +139,7 @@ Downloads are available on the "Release" tab
 
 The best way to download the config_patches.plist and other repo files is to download the project ZIP:
 
-https://github.com/Sniki/OS-X-USB-Inject-All/archive/master.zip
-
+https://github.com/DalianSky/OS-X-USB-Inject-All/archive/master.zip
 
 ### How to Install
 
@@ -159,12 +170,9 @@ Certain Intel xHCI controllers are not supported natively and require an injecto
 
 Because XHCI-unsupported.kext uses a lower IOProbeScore than the native Info.plist, there is no harm in installing it even if native support exists.
 
-Typical xHCI needing XHCI-unsupported.kext:
+Typical xHCI needing `XHCI-unsupported.kext`:
 
-X99-series chipset XHC controller, 8086:8d31
-200-series chipset XHC controller, 8086:a2af (depends on macOS version)
-300-series chipset XHC controller, 8086:a36d or 8086:9ded
-400-series chipset XHC controller, 8086:06ed or 8086:a3af
-Comet Lake PCH-LP USB 3.1 xHCI Host Controller, 8086:02ed
-Ice Lake-LP USB 3.1 xHCI Host Controller, 8086:34ed
-
+- X99-series chipset XHC controller, 8086:8d31
+- 200-series chipset XHC controller, 8086:a2af (depends on macOS version)
+- 300-series chipset XHC controller, 8086:a36d or 8086:9ded
+- 400-series chipset XHC controller, 8086:a3af
