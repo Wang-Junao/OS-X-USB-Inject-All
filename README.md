@@ -36,7 +36,7 @@ XHC, 400-series chipset(8086:06ed): 14-USB2 ports HS01-HS14, 10-USB3 ports SS01-
 
 Comet Lake PCH-LP USB 3.1 xHCI Host Controller, (8086:02ed): 10-USB2 ports HS01-HS10, 4-USB3 ports SS01-SS04, plus USR1/USR2)
 
-Ice Lake-LP USB 3.1 xHCI Host Controller, (8086:34ed): 10-USB2 ports HS01-HS10, 4-USB3 ports SS01-SS04, plus USR1/USR2)
+Ice Lake-LP USB 3.1 xHCI Host Controller, (8086:34ed): 12-USB2 ports HS01-HS12, 4-USB3 ports SS01-SS04, plus USR1/USR2)
 
 
 
